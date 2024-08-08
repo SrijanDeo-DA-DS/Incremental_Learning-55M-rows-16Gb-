@@ -13,9 +13,14 @@ I have approached this problem in 3 ways -
 
 
 ## Dask 
-
 Dask is a flexible parallel computing library in Python designed to handle large-scale data processing and computation.
 It enables you to scale your computations from a single machine to a cluster of machines while providing a familiar interface for users of libraries like NumPy, Pandas, and Scikit-Learn.
+
+#### Classification Report and Training Time
+![dask_performance](https://github.com/user-attachments/assets/f73c4373-86b2-431f-809e-c7bde3c6e53a)
+
+* It took approx. 38mins to train a 15Gb dataset using Dask
+
 
 ## Pandas
 
