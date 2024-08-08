@@ -21,8 +21,10 @@ It enables you to scale your computations from a single machine to a cluster of 
 
 * It took approx. 38mins to train a 15Gb dataset using Dask
 
-
 ## Pandas
 
 The chunksize attribute in Pandas allows you to efficiently handle large datasets that don't fit into memory by reading the data in smaller, manageable chunks. 
 This approach is particularly useful for performing operations on large CSV files or other text-based data sources.
+
+## River
+The River library is a Python library designed for incremental learning, which allows you to build and train machine learning models in a way that is suitable for streaming data or large datasets. It is particularly useful when dealing with continuous data streams or when you need to update your model incrementally without retraining it from scratch.
