@@ -1,9 +1,9 @@
 # Incremental Learning
 
-Incremental learning, also known as online learning or sequential learning, is a machine learning approach where the model learns from data in a continuous, iterative manner rather than all at once. 
-This approach is particularly useful when dealing with large datasets, real-time data streams, or situations where the entire dataset is not available upfront.
+Incremental learning, also known as __online learning or sequential learning__, is a machine learning approach where the model learns from data in a continuous, iterative manner rather than all at once. 
+This approach is particularly useful when dealing with __large datasets, real-time data streams__, or situations where the entire dataset is not available upfront.
 
-* Here, in this example we have a dataset of 16Gb (55m+ rows) and my laptop has 8gb RAM. Clearly, my laptop is not capable of loading and training the entire dataset at once.
+* Here, in this example we have a dataset of __16Gb (55m+ rows)__ and my laptop has 8Gb RAM. Clearly, my laptop is not capable of loading and training the entire dataset at once.
 * Here we will use the concept of Incremental Learning
 
 I have approached this problem in 3 ways - 
@@ -12,7 +12,7 @@ I have approached this problem in 3 ways -
 3. River Library + Incremental Learning (Random Forest)
 
 - Random Forest / XgBoost have __'warm_start'__ parameter that helps us perform incremental training
-- Other algorithms like SGDClassifier have 'partial_fit' that helps us perform incremental training
+- Other algorithms like SGDClassifier have __'partial_fit'__ that helps us perform incremental training
 
 ## Dask 
 Dask is a flexible parallel computing library in Python designed to handle large-scale data processing and computation.
