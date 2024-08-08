@@ -11,6 +11,8 @@ I have approached this problem in 3 ways -
 2. Pandas Library + Incremental Learning (Random Forest)
 3. River Library + Incremental Learning (Random Forest)
 
+- Random Forest / XgBoost have __'warm_start'__ parameter that helps us perform incremental training
+- Other algorithms like SGDClassifier have 'partial_fit' that helps us perform incremental training
 
 ## Dask 
 Dask is a flexible parallel computing library in Python designed to handle large-scale data processing and computation.
@@ -19,7 +21,7 @@ It enables you to scale your computations from a single machine to a cluster of 
 #### Classification Report and Training Time
 ![dask_performance](https://github.com/user-attachments/assets/f73c4373-86b2-431f-809e-c7bde3c6e53a)
 
-* It took approx. 38mins to train a 15Gb dataset using Dask
+* It took approx. __38mins to train a 15Gb dataset__ using Dask
 
 ## Pandas
 
